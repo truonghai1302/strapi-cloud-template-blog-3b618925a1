@@ -9,6 +9,27 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
-  "attributes": {}
+  "pluginOptions": {
+    "i18n": {
+      "localized": false
+    }
+  },
+  "attributes": {
+    "medias": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios",
+        "files"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
 }
